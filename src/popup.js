@@ -17,3 +17,11 @@ function createHeader(parent) {
 }
 
 createHeader(headerContainer);
+
+mainContainer.appendChild(headerContainer);
+mainContainer.appendChild(bodyContainer);
+mainContainer.appendChild(footerContainer);
+
+app.appendChild(mainContainer);
+
+app.appendChild(mainContainer)
